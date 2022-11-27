@@ -1,0 +1,13 @@
+.button {
+  width: 21.5%;
+  height: 25px;
+  border: 1px solid;
+  border-radius: 5px;
+  cursor: pointer;
+}
+@media screen and (max-width: 360px) {
+  .button {
+    width: 46%;
+    height: 30px;
+  }
+}
